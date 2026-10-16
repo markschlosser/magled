@@ -1,0 +1,19 @@
+# Build output
+/magled
+/magled.plist.tmp
+*.o
+*.dSYM/
+
+# macOS
+.DS_Store
+._*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Claude Code local state
+.claude/settings.local.json
+.claude/.cc-writes/
